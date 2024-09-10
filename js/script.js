@@ -1,7 +1,7 @@
 import testimonials from "./data.js";
+import projects from "./projectsdata.js";
 const testimonialSection = document.querySelector(".testimonialItemContainer");
-
-console.log("Working");
+const projectsSection = document.querySelector(".projectsContainer");
 
 const DisplayTestimonialList = function () {
   let newArr = testimonials.map((customer, i) => {
@@ -39,7 +39,40 @@ const DisplayTestimonialList = function () {
     return html;
   });
 
-  testimonialSection.innerHTML = newArr.join("");
+  testimonialSection ? (testimonialSection.innerHTML = newArr.join("")) : "";
 };
 
 DisplayTestimonialList();
+
+// Get the current HTML page name
+var currentPage = window.location.pathname.split("/").pop();
+
+// Log the current page to the console
+console.log("You are currently on:", currentPage);
+
+const DisplayProjects = function () {
+  let newArr = projects.map((project) => {
+    let html = `
+         <div class="item ${project.category}">
+            <div class="box">
+              <div class="img-box">
+                <img src="${project.ImgUrl}" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>
+                 ${project.name}
+                </h5>
+                <p>
+                 ${project.description}
+                </p>
+              </div>
+            </div>
+          </div>
+`;
+    return html;
+  });
+
+  projectsSection ? (projectsSection.innerHTML = newArr.join("")) : "";
+};
+
+DisplayProjects();

@@ -419,10 +419,27 @@ a:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url(../images/slider-bg.jpg);
+  background-image: url(../images/kitchen2.jpg);
   background-size: cover;
+  background-position: center;
 }
 
+.slider_section::after {
+  content: "";
+  position: absolute;
+  top: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.slider_section .detail-box {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
 .slider_section .dot_design {
   position: absolute;
   width: 450px;
@@ -455,9 +472,9 @@ a:focus {
 .slider_section .detail-box h1 {
   font-weight: bold;
   text-transform: uppercase;
-  /* line-height: 4rem; */
   margin-bottom: 0;
   color: #ffffff;
+  z-index: -1;
 }
 
 .slider_section .detail-box p {
