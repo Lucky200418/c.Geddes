@@ -59,7 +59,7 @@ export default [
   },
   {
     category: "kitchen",
-    ImgUrl: "images/kitchen2.JPG",
+    ImgUrl: "images/kitchen2.jpg",
     name: "Custom Interior Design",
     description:
       " Tailored interior solutions blending functionality with aesthetic appeal, designed to enhance your living space.",
@@ -73,49 +73,49 @@ export default [
   },
   {
     category: "other",
-    ImgUrl: "images/other3.JPG",
+    ImgUrl: "images/other3.jpg",
     name: "Custom Interior Design",
     description:
       " Tailored interior solutions blending functionality with aesthetic appeal, designed to enhance your living space.",
   },
   {
     category: "other",
-    ImgUrl: "images/other4.JPG",
+    ImgUrl: "images/other4.jpg",
     name: "Custom Interior Design",
     description:
       " Tailored interior solutions blending functionality with aesthetic appeal, designed to enhance your living space.",
   },
   {
     category: "other",
-    ImgUrl: "images/other5.JPG",
+    ImgUrl: "images/other5.jpg",
     name: "Custom Interior Design",
     description:
       " Tailored interior solutions blending functionality with aesthetic appeal, designed to enhance your living space.",
   },
   {
     category: "other",
-    ImgUrl: "images/other6.JPG",
+    ImgUrl: "images/other6.jpg",
     name: "Custom Interior Design",
     description:
       " Tailored interior solutions blending functionality with aesthetic appeal, designed to enhance your living space.",
   },
   {
     category: "other",
-    ImgUrl: "images/other7.JPG",
+    ImgUrl: "images/other7.jpg",
     name: "Custom Interior Design",
     description:
       " Tailored interior solutions blending functionality with aesthetic appeal, designed to enhance your living space.",
   },
   {
     category: "other",
-    ImgUrl: "images/other8.JPG",
+    ImgUrl: "images/other8.jpg",
     name: "Custom Interior Design",
     description:
       " Tailored interior solutions blending functionality with aesthetic appeal, designed to enhance your living space.",
   },
   {
     category: "other",
-    ImgUrl: "images/other9.JPG",
+    ImgUrl: "images/other9.jpg",
     name: "Custom Interior Design",
     description:
       " Tailored interior solutions blending functionality with aesthetic appeal, designed to enhance your living space.",
@@ -129,7 +129,7 @@ export default [
   },
   {
     category: "other",
-    ImgUrl: "images/others2.JPG",
+    ImgUrl: "images/others2.jpg",
     name: "Custom Interior Design",
     description:
       " Tailored interior solutions blending functionality with aesthetic appeal, designed to enhance your living space.",

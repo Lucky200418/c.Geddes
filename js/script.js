@@ -44,12 +44,6 @@ const DisplayTestimonialList = function () {
 
 DisplayTestimonialList();
 
-// Get the current HTML page name
-var currentPage = window.location.pathname.split("/").pop();
-
-// Log the current page to the console
-console.log("You are currently on:", currentPage);
-
 const DisplayProjects = function () {
   let newArr = projects.map((project) => {
     let html = `
